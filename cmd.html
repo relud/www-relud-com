@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Configuring Linux's Super key like OSX's Command key</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+    <body style='padding-bottom: 10em'>
+        <H1>Configuring Linux's Super key like OSX's Command key</H1>
+        <div style='padding-left: 2em'>
+            <H2>Table of Contents</H2>
+            <ol>
+                <li><a href='#herbstluft'>Configure Herbstluft Window Manager</a></li>
+                <li><a href='#sakura'>Configure Sakura</a></li>
+                <li><a href='#firefox'>Configure Firefox</a></li>
+                <ol>
+                    <li><a href='#firefox-keymap'>Convert Command key from Super to Meta</a></li>
+                    <li><a href='#firefox-config'>Set accel key in about:config</a></li>
+                </ol>
+            </ol>
+            <a id='herbstluft'><H2>Configure Herbstluft Window Manager</H2></a>
+            <div style='padding-left: 2em'>
+                If necessary, copy <code>/etc/xdg/herbstluftwm/autostart</code> to <code>~/.config/herbstluftwm/autostart</code><br><br>
+                In <code>~/.config/herbstluftwm/autostart</code> change:<br>
+                <blockquote>
+                    <code>Mod=Mod1</code><br>
+                    <code>hc keybind $Mod-Shift-c close</code><br>
+                </blockquote>
+                to
+                <blockquote>
+                    <code>Mod=Mod4</code><br>
+                    <code>hc keybind $Mod-q close</code><br>
+                </blockquote>
+            </div>
+            <a id='sakura'><H2>Configure Sakura</H2></a>
+            <div style='padding-left: 2em'>
+                Set these settings in your <code>~/.config/sakura/sakura.conf</code> change:<br>
+                <blockquote>
+                    <code>add_tab_accelerator=5</code><br>
+                    <code>del_tab_accelerator=5</code><br>
+                    <code>switch_tab_accelerator=8</code><br>
+                    <code>move_tab_accelerator=5</code><br>
+                    <code>copy_accelerator=5</code><br>
+                    <code>scrollbar_accelerator=5</code><br>
+                    <code>open_url_accelerator=5</code><br>
+                    <code>font_size_accelerator=4</code><br>
+                    <code>set_tab_name_accelerator=5</code><br>
+                    <code>add_tab_key=T</code><br>
+                    <code>del_tab_key=W</code><br>
+                    <code>prev_tab_key=Left</code><br>
+                    <code>next_tab_key=Right</code><br>
+                    <code>copy_key=C</code><br>
+                    <code>paste_key=V</code><br>
+                    <code>scrollbar_key=S</code><br>
+                    <code>set_tab_name_key=N</code><br>
+                </blockquote>
+                to
+                <blockquote>
+                    <code>add_tab_accelerator=64</code><br>
+                    <code>del_tab_accelerator=64</code><br>
+                    <code>switch_tab_accelerator=64</code><br>
+                    <code>move_tab_accelerator=65</code><br>
+                    <code>copy_accelerator=64</code><br>
+                    <code>scrollbar_accelerator=64</code><br>
+                    <code>open_url_accelerator=64</code><br>
+                    <code>font_size_accelerator=64</code><br>
+                    <code>set_tab_name_accelerator=64</code><br>
+                    <code>add_tab_key=t</code><br>
+                    <code>del_tab_key=w</code><br>
+                    <code>prev_tab_key=Left</code><br>
+                    <code>next_tab_key=Right</code><br>
+                    <code>copy_key=c</code><br>
+                    <code>paste_key=v</code><br>
+                    <code>scrollbar_key=s</code><br>
+                    <code>set_tab_name_key=n</code><br>
+                </blockquote>
+            </div>
+            <a id='firefox'><H2>Configure Firefox</H2></a>
+            <div style='padding-left: 2em'>
+                Firefox's <code>ui.key.accelKey</code> requires a <a href='http://lxr.mozilla.org/seamonkey/source/dom/public/idl/events/nsIDOMKeyEvent.idl'><code>DOM_VK</code></a> key code,
+                and there isn't one for <code>Super</code>, so we'll have to use <code>Meta</code> instead.<br><br>
+                If you want to send <code>Meta</code> key combinations in a terminal, you can still do that with <code>ESC &lt;key&gt;</code> or <code>alt-&lt;key&gt;</code>
+                <a id='firefox-keymap'><H3>Convert Command key from Super to Meta</H2></a>
+                <div style='padding-left: 2em'>
+                    Run <code>xmodmap</code> to key the key codes for your <code>Super</code> keys<br>
+                    <blockquote>
+                        <code>$ xmodmap</code><br>
+                        <code>xmodmap:  up to 4 keys per modifier, (keycodes in parentheses):</code><br><br>
+                        <code>shift       Shift_L (0x32),  Shift_R (0x3e)</code><br>
+                        <code>lock        Caps_Lock (0x42)</code><br>
+                        <code>control     Control_L (0x25),  Control_R (0x69)</code><br>
+                        <code>mod1        Alt_L (0x40),  Alt_R (0x6c),  Alt_L (0xcc)</code><br>
+                        <code>mod2        Num_Lock (0x4d)</code><br>
+                        <code>mod3</code><br>
+                        <code>mod4        Super_L (0x85),  Super_R (0x86),  Super_L (0xce)</code><br>
+                        <code>mod5        ISO_Level3_Shift (0x5c),  Mode_switch (0xcb)</code><br>
+                    </blockquote>
+                    Add to <code>~/.xmodmap</code>:
+                    <blockquote>
+                        <code>keycode 0x85 = Meta_L</code><br>
+                        <code>keycode 0x86 = Meta_R</code><br>
+                        <code>keycode 0xce = Meta_L</code><br>
+                    </blockquote>
+                    Run <code>xmodmap ~/.xmodmap</code> to apply the change, and <code>xmodmap</code> to verify that it worked:
+                    <blockquote>
+                        <code>$ xmodmap ~/.xmodmap</code><br>
+                        <code>$ xmodmap</code><br>
+                        <code>xmodmap:  up to 4 keys per modifier, (keycodes in parentheses):</code><br><br>
+                        <code>shift       Shift_L (0x32),  Shift_R (0x3e)</code><br>
+                        <code>lock        Caps_Lock (0x42)</code><br>
+                        <code>control     Control_L (0x25),  Control_R (0x69)</code><br>
+                        <code>mod1        Alt_L (0x40),  Alt_R (0x6c),  Alt_L (0xcc)</code><br>
+                        <code>mod2        Num_Lock (0x4d)</code><br>
+                        <code>mod3</code><br>
+                        <code>mod4        Meta_L (0x85),  Meta_R (0x86),  Meta_L (0xce)</code><br>
+                        <code>mod5        ISO_Level3_Shift (0x5c),  Mode_switch (0xcb)</code><br>
+                    </blockquote>
+                    Persist the change by adding this to the top of your <code>.xinitrc</code>:<br>
+                    <blockquote>
+                        <code>! test -f ~/.xmodmap || xmodmap ~/.xmodmap</code><br>
+                    </blockquote>
+                </div>
+                <a id='firefox-config'><H3>Set accel key in about:config</H2></a>
+                <div style='padding-left: 2em'>
+                    Open <code>about:config</code> and search for <code>ui.key.accelKey</code><br>
+                    Set <code>ui.key.accelKey</code> to <code>224</code> (the
+                    <a href='http://lxr.mozilla.org/seamonkey/source/dom/public/idl/events/nsIDOMKeyEvent.idl'><code>DOM_VK</code></a>
+                    code for <code>Meta</code>)<br>
+                    Restart Firefox<br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
