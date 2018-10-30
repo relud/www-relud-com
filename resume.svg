@@ -18,7 +18,7 @@
        id="clipPath20"
        clipPathUnits="userSpaceOnUse"><path
          id="path18"
-         d="M -2,-2 H 696 V 835 H -2 Z" /></clipPath></defs><g
+         d="M -2,-2 H 696 V 820 H -2 Z" /></clipPath></defs><g
      transform="matrix(1.3333333,0,0,-1.3333333,0,1056)"
      id="g10"><g
        transform="matrix(1,0,0,-1,0,792)"
@@ -29,7 +29,7 @@
            id="g16"><path
              id="path22"
              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="M 0,0 H 695 V 834 H 0 Z" /><path
+             d="M 0,0 H 695 V 819 H 0 Z" /><path
              id="path24"
              style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              d="M -1,71.5 H 695" /><text
@@ -206,362 +206,355 @@
              transform="translate(131,270.19385)"><tspan
                id="tspan122"
                y="0"
-               x="0 9.3859997 16.614 23.114 26 33.228001 40.456001 47.683998 54.911999 58.513 65.740997 72.969002 80.196999 83.797997 90.297997 97.526001 104.754 111.982 119.21 123.539 127.14 134.368 141.59599 145.19701 152.425 159.653 163.254 171.912 179.842 187.07001 190.67101 197.899 200.785 208.013 215.241 218.127 221.013 228.241 235.46899 239.07001 246.298 253.526 260.026 267.254 274.48199 278.08301 285.311 292.539 296.14001 303.36801 306.96899 310.57001 317.798 324.298 327.89899 331.5 335.10101 342.32901 345.215 348.81601 356.04401 363.272 370.5 374.10101 380.60101 387.82901 398.65799 402.259 405.85999 410.189 413.07501 419.57501 426.80301 434.03101 441.259 444.85999 452.08801 459.31601 462.202 465.08801 472.31601 483.14499 486.746 490.34698 497.57501 501.90399">Designed and supported an ETL pipeline based on https://github.com/trivago/gollum for </tspan></text>
+               x="0 9.3859997 16.614 23.114 26 33.228001 40.456001 47.683998 54.911999 58.513 65.740997 72.969002 80.196999 83.797997 90.297997 97.526001 104.754 111.982 119.21 123.539 127.14 134.368 141.59599 145.19701 152.425 159.653 163.254 171.912 179.842 187.07001 190.67101 197.899 200.785 208.013 215.241 218.127 221.013 228.241 235.46899 239.07001 242.67101 249.899 254.228 257.82901 265.05701 272.285 275.17099 278.05701 284.55701 291.785 296.11401 299 306.228 313.45599 317.05701 319.94299 327.17099 334.39899 340.89899 344.5 348.10101 355.32901 358.92999 367.58801 370.474 377.702 384.202 387.80301 390.689 397.189 405.84698 413.07501 420.30301 424.63199 431.13199 438.35999 441.961 445.56201 454.948 462.17599 469.40399 475.90399 483.13199 486.01801 489.61899 493.22 496.82101 500.422 507.64999 514.87799 522.10602 525.70697 534.36499 541.59302">Designed and supported an ETL pipeline for delivering logs to ElasticSearch, Redshift, and S3 </tspan></text>
 <text
              id="text128"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
              transform="translate(131,285.14258)"><tspan
                id="tspan126"
                y="0"
-               x="0 7.2280002 14.456 17.341999 20.228001 26.728001 33.956001 38.285 41.171001 48.398998 55.626999 59.228001 62.113998 69.342003 76.57 83.07 86.670998 90.272003 97.5 101.101 109.759 112.645 119.873 126.373 129.974 132.86 139.36 148.01801 155.246 162.474 166.80299 173.30299 180.53101 184.132 187.733 197.119 204.347 211.575 218.075 225.30299 228.189 231.78999 235.39101 238.992 242.593 249.821 257.04901 264.27701 267.87799 276.53601 283.76401 287.36499 290.966 298.194 302.52301 306.12399 313.35199 320.57999 327.80801 338.63699 345.86499 348.75101 355.25101 358.85199 366.07999 373.30801 376.909 384.13699 390.63699 394.23801 397.12399 404.35199 411.57999 415.181 422.409 429.63699 436.86499 440.466 447.694 454.922 462.14999 465.03601 471.53601 478.03601 480.922 487.422 491.02301 498.25101 504.75101 507.63699 514.86499 522.09302">delivering logs to ElasticSearch, Redshift, and S3 for anomaly detection and analysis using </tspan></text>
+               x="0 3.6010001 10.829 15.158 18.759001 25.987 33.215 40.443001 51.271999 58.5 61.386002 67.886002 71.487 78.714996 85.943001 89.543999 96.772003 103.272 106.873 109.759 116.987 124.215 127.816 135.04401 142.272 149.5 153.101 160.32899 167.55701 174.785 177.67101 184.17101 190.67101 193.55701 200.05701 203.658 210.886 217.386 220.272 227.5 234.728 238.32899 246.987 249.873 257.10101 264.32901 271.55701 278.785 282.38599 285.987 295.37299 302.60101 309.82901 317.05701 323.55701 330.785 334.38599 337.987 348.08801 355.31601 358.202 364.702 371.202 377.702 380.58801 387.81601 395.04401 398.64499 402.246 405.84698 413.07501 420.30301 427.53101 431.13199 439.79001 443.39099 450.61899 457.84698 465.07501">for anomaly detection and analysis using Kibana, Redash, Quicksight, and Athena</tspan></text>
 <text
              id="text132"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,300.0913)"><tspan
+             transform="translate(117,301.19385)"><tspan
                id="tspan130"
                y="0"
-               x="0 8.658 11.544 18.771999 26 33.228001 40.456001 44.056999 47.658001 57.043999 64.272003 71.5 78.727997 85.227997 92.456001 96.056999 99.657997 109.759 116.987 119.873 126.373 132.873 139.373 142.259 149.487 156.715 160.31599 163.91701 167.51801 174.746 181.974 189.202 192.80299 201.461 205.062 212.28999 219.51801 226.746">Kibana, Redash, Quicksight, and Athena</tspan></text>
+               x="0">●</tspan></text>
 <text
              id="text136"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,316.19385)"><tspan
+             transform="translate(131,301.19385)"><tspan
                id="tspan134"
-               y="0"
-               x="0">●</tspan></text>
-<text
-             id="text140"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,316.19385)"><tspan
-               id="tspan138"
                y="0"
                x="0 9.3859997 16.614 23.841999 26.728001 33.956001 40.456001 47.683998 54.911999 58.513 62.113998 65.714996 72.943001 79.443001 83.043999 90.272003 97.5 101.101 104.702 111.93 119.158 126.386 129.987 136.487 142.987 150.215 153.101 160.32899 167.55701 171.158 178.386 184.886 188.487 195.715 202.94299 210.17101 213.772 221 228.228 235.45599 239.05701 246.285 253.513 260.741 267.96899 270.85501 277.35501 280.95599 287.45599 294.68399 299.013 305.513 308.39899 314.89899 322.12701 328.62701 332.228 339.45599 346.68399 350.285 358.94299 371.202 379.85999 383.461 392.84698 395.733 399.33401 406.56201 410.16299 419.54901 426.77701 434.005 437.60599 447.707 456.36499 459.966 463.56699 472.953 481.61099 492.44 498.94 502.54099 506.142 515.52802 522.75598 529.25598 535.75598 542.98401 547.31299 550.914">Deployed, tested, and scaled python and nodejs services on AWS with CentOS, RPMs, Docker, </tspan></text>
 <text
-             id="text144"
+             id="text140"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,331.14258)"><tspan
-               id="tspan142"
+             transform="translate(131,316.14258)"><tspan
+               id="tspan138"
                y="0"
                x="0 7.2280002 14.456 21.684 25.285 33.943001 41.171001 48.398998 55.626999 62.855">and Puppet</tspan></text>
 <text
-             id="text148"
+             id="text144"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,347.19385)"><tspan
-               id="tspan146"
+             transform="translate(117,332.19385)"><tspan
+               id="tspan142"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text152"
+             id="text148"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,347.19385)"><tspan
-               id="tspan150"
+             transform="translate(131,332.19385)"><tspan
+               id="tspan146"
                y="0"
                x="0 12.259 19.487 23.816 30.316 37.543999 44.771999 48.373001 57.758999 60.645 64.246002 71.473999 75.074997 82.303001 89.530998 96.030998 103.259 106.145 113.373 120.601 127.829 132.158 138.658 142.259 145.86 153.088 156.689 163.91701 171.145 177.645 180.53101 187.759 194.987 198.588 205.81599 213.04401 220.272 223.873 226.759 237.588 244.81599 247.702 254.92999 265.759 272.987 280.215 283.81601 287.41699 294.64499 298.246 305.474 308.35999 315.58801 322.81601 325.702 332.202 336.53101 343.759 350.259 357.487 360.37299 363.259 370.487 377.715 380.60101 387.82901 391.42999 398.65799 405.88599 409.487 416.715 420.31601 427.54401 430.42999 437.65799 444.88599 447.772 450.65799 457.88599 465.11401 468.715 471.60101 478.82901 482.42999 491.08801 503.34698 512.005 515.60602 519.20697 526.435 532.935 535.82098 543.04901 550.27698">Worked with developers to design and implement a highly-available data pipeline in AWS, using </tspan></text>
 <text
-             id="text156"
+             id="text152"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,362.14258)"><tspan
-               id="tspan154"
+             transform="translate(131,347.14258)"><tspan
+               id="tspan150"
                y="0"
                x="0 8.658 15.886 19.487 23.087999 31.746 41.132 49.790001 53.390999 56.992001 65.650002 75.750999 84.408997 88.010002 91.611 100.997 103.883 110.383 116.883 124.111 127.712 138.541 145.769 152.99699 157.326 161.655 168.883 176.11099 183.339 189.839 197.067 200.668 204.269 211.49699 218.72501 225.953 229.554 238.94 246.168 253.396 259.896 267.12399 270.01001 273.61099">S3, SNS, SQS, Disco map-reduce, and Redshift</tspan></text>
 <text
-             id="text160"
+             id="text156"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,378.19385)"><tspan
-               id="tspan158"
+             transform="translate(117,363.19385)"><tspan
+               id="tspan154"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text164"
+             id="text160"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,378.19385)"><tspan
-               id="tspan162"
+             transform="translate(131,363.19385)"><tspan
+               id="tspan158"
                y="0"
                x="0 9.3859997 16.614 23.114 26 33.228001 40.456001 47.683998 54.911999 58.513 69.342003 76.57 83.07 86.670998 93.899002 98.227997 101.114 108.342 114.842 121.342 124.943 133.601 140.82899 148.05701 155.285 162.513 166.114 169.715 172.601 179.82899 183.42999 187.759 194.987 201.487 205.088 209.41701 216.645 223.145 226.746 233.974 238.30299 245.53101 249.132 256.35999 263.58801 267.189 275.84698 288.10599">Designed masterless Puppet infrastructure on AWS</tspan></text>
 <text
-             id="text168"
+             id="text164"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,395.19385)"><tspan
-               id="tspan166"
+             transform="translate(117,380.19385)"><tspan
+               id="tspan162"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text172"
+             id="text168"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,395.19385)"><tspan
-               id="tspan170"
+             transform="translate(131,380.19385)"><tspan
+               id="tspan166"
                y="0"
                x="0 9.3859997 16.614 23.114 26 33.228001 40.456001 47.683998 54.911999 58.513 61.398998 68.626999 75.855003 83.083 86.683998 90.285004 97.513 104.013 107.614 114.114 117.715 124.943 132.17101 139.399 143 145.886 153.114 156.715 163.94299 171.17101 175.5 182.728 186.32899 189.215 196.44299 203.67101 207.272 210.873 218.101 224.601 228.202 234.702 238.30299 241.90401 249.132 253.461 257.06201 264.29001 271.51801 278.01801 285.246 288.13199 295.35999 302.58801 309.81601 314.14499 317.746 324.974 329.30301 336.53101 343.03101 345.91699 353.14499 360.37299 367.60101 371.202 377.702 384.92999 388.53101 392.13199 401.51801 408.746 413.07501">Designed load tests and integration tests for developer provided software</tspan></text>
 <text
-             id="text176"
+             id="text172"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,429.19385)"><tspan
-               id="tspan174"
+             transform="translate(117,414.19385)"><tspan
+               id="tspan170"
                y="0"
                x="0 9.3859997 16.614 23.114 26.715 33.943001 41.171001 48.398998 55.626999 59.228001 63.556999 67.157997 76.543999 83.772003 90.272003 93.873001 101.101 108.329 115.557">Nov 2010 - Dec 2012</tspan></text>
 <text
-             id="text180"
+             id="text176"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(262,429.19385)"><tspan
-               id="tspan178"
+             transform="translate(262,414.19385)"><tspan
+               id="tspan174"
                y="0"
                x="0 10.101 18.759001 28.145 31.746 41.847 49.075001 56.303001 63.530998 67.132004 75.790001 83.017998 90.246002 94.574997 101.075 108.303 111.904 119.132 126.36 133.588">OSU Open Source Labs</tspan></text>
 <text
-             id="text184"
+             id="text180"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(614.4346,429.19385)"><tspan
-               id="tspan182"
+             transform="translate(614.4346,414.19385)"><tspan
+               id="tspan178"
                y="0"
                x="0 9.3859997 16.614 20.943001 27.443001 34.671001 37.556999 40.443001 43.328999 49.828999 53.43 57.030998 67.132004">Corvallis, OR</tspan></text>
 <text
-             id="text188"
+             id="text184"
              style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,446.19385)"><tspan
-               id="tspan186"
+             transform="translate(117,431.19385)"><tspan
+               id="tspan182"
                y="0"
                x="0 9.3859997 17.316 28.872999 40.43 48.360001 56.290001 59.890999 64.220001 71.447998 75.049004 83.707001 90.934998 98.163002 102.492 109.72 121.277 128.505 132.106 141.492 149.422 160.979 164.58 172.50999 176.11099 183.339 187.668 192.72501 199.953 204.282 212.21201">Community Systems Administrator</tspan></text>
 <text
-             id="text192"
+             id="text188"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,463.19385)"><tspan
-               id="tspan190"
+             transform="translate(117,448.19385)"><tspan
+               id="tspan186"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text196"
+             id="text192"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,463.19385)"><tspan
-               id="tspan194"
+             transform="translate(131,448.19385)"><tspan
+               id="tspan190"
                y="0"
                x="0 8.658 15.158 21.658001 24.544001 31.044001 34.645 41.873001 49.101002 52.702 55.588001 62.816002 66.417 77.246002 80.132004 87.360001 91.689003 98.917 102.518 105.404 112.632 119.86 123.461 127.062 131.39101 138.619 149.448 153.049 162.435 170.36501 179.02299 186.25101 193.479 196.36501 203.593 210.821 214.422 218.02299 225.25101 228.85201 237.50999 244.73801 251.966 259.194 266.422">Assisted in migrating from CFEngine to Puppet</tspan></text>
 <text
-             id="text200"
+             id="text196"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,479.19385)"><tspan
-               id="tspan198"
+             transform="translate(117,464.19385)"><tspan
+               id="tspan194"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text204"
+             id="text200"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,479.19385)"><tspan
-               id="tspan202"
+             transform="translate(131,464.19385)"><tspan
+               id="tspan198"
                y="0"
                x="0 8.658 15.158 22.386 29.614 33.943001 36.828999 44.056999 51.285 57.785 65.013 68.613998 78 85.227997 89.556999 96.056999 98.943001 106.171 113.399 117 126.386 129.272 132.873 140.101 143.702 150.92999 158.158 165.386 168.987 176.215 183.44299 194.272 197.158 204.386 207.272 213.772 217.373 221.702 228.92999 232.53101 235.41701 242.645 249.873 253.474 262.13199 269.35999 276.58801 283.81601 291.04401 294.64499 298.246 301.84698 311.233 318.461 325.689 336.51801 339.40399 346.63199 353.85999 357.461 361.06201 370.448 378.37799 387.03601 394.26401 401.492 404.37799 411.60599 418.83401 422.435 426.03601 433.26401 440.492 447.72 451.32101 457.82101 465.04901 475.87799 483.10599 486.707 494.63699 502.56699 511.22501">Experience working with and administrating Puppet, Redmine, CFEngine, and some FTP </tspan></text>
 <text
-             id="text208"
+             id="text204"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,494.14258)"><tspan
-               id="tspan206"
+             transform="translate(131,479.14258)"><tspan
+               id="tspan202"
                y="0"
                x="0 10.829 13.715 18.044001 22.372999 29.601 33.93 36.816002 44.043999 51.271999 54.873001 58.473999 67.132004 79.390999 88.049004 91.650002 98.877998 102.479 108.979 112.58 116.181 123.409 132.795 141.453 150.11099 153.71201 157.313 164.541 171.769 178.99699 182.59801 191.98399 199.21201 206.44 209.326 216.554">mirroring, AWStats, LDAP, and Nagios</tspan></text>
 <text
-             id="text212"
+             id="text208"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,510.19385)"><tspan
-               id="tspan210"
+             transform="translate(117,495.19385)"><tspan
+               id="tspan206"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text216"
+             id="text212"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,510.19385)"><tspan
-               id="tspan214"
+             transform="translate(131,495.19385)"><tspan
+               id="tspan210"
                y="0"
                x="0 10.101 17.329 24.556999 31.785 36.113998 43.341999 46.228001 49.828999 52.715 55.601002 62.828999 70.056999 76.556999 80.157997 86.657997 93.157997 99.657997 103.259 110.487 121.316 127.816 131.41701 138.645 145.873 156.702 159.588 166.81599 169.702 176.202 179.80299 184.132 191.36 194.961 197.847 205.075 212.30299 215.90401 220.233 223.834 226.72 233.22 236.821 240.422 247.64999 250.536 257.03601 260.63699 267.13699 274.36499 278.694 285.194 292.422 296.75101 300.35199 303.953 311.181 318.409 325.63699 328.52301 335.75101 342.25101 345.85199 349.453 356.681 363.909 367.51001 371.11099 377.61099 384.83899 388.44 392.04099 401.427 408.655 412.98401 420.21201 423.81299 431.04099 435.37 442.59799 445.48401 452.71201 459.21201 462.81299 466.414 470.01501 477.24301 480.84399 487.34399">General linux systems administration (fix this server, deploy that software project, etc)</tspan></text>
 <text
-             id="text220"
+             id="text216"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,544.19385)"><tspan
-               id="tspan218"
+             transform="translate(117,529.19385)"><tspan
+               id="tspan214"
                y="0"
                x="0 10.829 18.056999 24.556999 28.158001 35.386002 42.613998 49.841999 57.07 60.671001 65 68.600998 77.259003 84.487 91.714996 95.316002 98.917 106.145 113.373 120.601">May 2011 - Sept 2011</tspan></text>
 <text
-             id="text224"
+             id="text220"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(262,544.19385)"><tspan
-               id="tspan222"
+             transform="translate(262,529.19385)"><tspan
+               id="tspan218"
                y="0"
                x="0 9.3859997 16.614 23.114 30.341999 33.228001 36.113998 43.341999 49.841999 53.443001 62.101002 68.600998 75.100998 78.702003 85.93 96.759003">Novellus Systems</tspan></text>
 <text
-             id="text228"
+             id="text224"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(618.02734,544.19385)"><tspan
-               id="tspan226"
+             transform="translate(618.02734,529.19385)"><tspan
+               id="tspan222"
                y="0"
                x="0 7.9299998 15.158 22.386 25.271999 32.5 36.101002 38.987 46.215 49.816002 53.417 63.518002">Tualatin, OR</tspan></text>
 <text
-             id="text232"
+             id="text228"
              style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,561.19385)"><tspan
-               id="tspan230"
+             transform="translate(117,546.19385)"><tspan
+               id="tspan226"
                y="0"
                x="0 8.658 16.587999 20.917 25.246 35.347 42.575001 47.632 54.860001 58.460999 67.119003 75.049004 82.978996 86.580002 94.510002 101.738 108.966 114.023 117.624 121.225 129.155 133.48399 140.71201 145.769">Software Engineer Intern</tspan></text>
 <text
-             id="text236"
+             id="text232"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,578.19385)"><tspan
-               id="tspan234"
+             transform="translate(117,563.19385)"><tspan
+               id="tspan230"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text240"
+             id="text236"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,578.19385)"><tspan
-               id="tspan238"
+             transform="translate(131,563.19385)"><tspan
+               id="tspan234"
                y="0"
                x="0 9.3859997 16.614 23.841999 26.728001 33.956001 40.456001 47.683998 54.911999 58.513 62.113998 69.342003 76.57 87.399002 90.285004 97.513 100.399 106.899 110.5 114.829 122.057 125.658 132.886 140.114 143.715 147.31599 154.54401 161.772 169 172.601 181.987 186.31599 193.54401 197.145 204.373 207.974 215.202 218.088 225.31599 232.54401 235.42999 242.658 249.158 252.759 256.35999 263.58801 267.91699 271.51801 280.90399 288.13199 295.35999 306.189 309.07501 316.30301 323.53101 327.13199 336.51801 343.746 346.63199 349.51801 352.40399 359.63199 363.961 371.189 374.07501 381.30301 387.80301">Deployed, administrated, and wrote plugins for Redmine/Chiliproject</tspan></text>
 <text
-             id="text244"
+             id="text240"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,595.19385)"><tspan
-               id="tspan242"
+             transform="translate(117,580.19385)"><tspan
+               id="tspan238"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text248"
+             id="text244"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,595.19385)"><tspan
-               id="tspan246"
+             transform="translate(131,580.19385)"><tspan
+               id="tspan242"
                y="0"
                x="0 8.658 15.886 23.114 26 32.5 39 46.228001 53.456001 57.056999 64.285004 71.513 78.740997 82.342003 89.57 96.797997 103.298 110.526 121.355 128.58299 135.811 139.412 146.64 153.868 157.46899 163.96899 171.19701 182.026 189.254 196.48199 200.811 203.69701 210.19701 217.425 224.653 231.153 234.754 241.98199 249.21001 252.811 262.19699 269.42499 276.65302 283.88101 287.48199 294.70999 297.59601 301.19699 304.798 308.39899 314.89899 321.39899 328.62701 332.228 335.82901 343.05701 350.285 357.513 361.11401 367.61401 370.5 377.728 384.95599 389.285 395.785 403.013 409.513">Analyzed and documented comparisons between git, svn, and clearcase</tspan></text>
 <text
-             id="text252"
+             id="text248"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,612.19385)"><tspan
-               id="tspan250"
+             transform="translate(117,597.19385)"><tspan
+               id="tspan246"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text256"
+             id="text252"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,612.19385)"><tspan
-               id="tspan254"
+             transform="translate(131,597.19385)"><tspan
+               id="tspan250"
                y="0"
                x="0 3.6010001 14.43 21.658001 24.544001 31.771999 42.601002 49.828999 57.056999 60.658001 67.886002 75.113998 78.714996 85.943001 89.543999 93.144997 100.373 107.601 111.202 118.43 122.759 129.987 133.588 140.81599 147.31599 151.645 158.873 165.373 171.873 175.474 186.30299 193.53101 196.41701 200.01801 202.90401 210.132 213.01801 220.246 223.847 230.347 237.575 244.80299 252.03101 259.259 266.487 272.987 280.215 286.715 290.31601 293.202 300.42999 304.03101 313.41699 317.01801 324.246 331.474 338.702 342.30301 348.80301 356.03101 362.53101">Implemented a feature across multiple codebases in C and Java</tspan></text>
 <text
-             id="text260"
+             id="text256"
              style="font-variant:normal;font-weight:bold;font-size:18.19999886px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(3,651.0597)"><tspan
-               id="tspan258"
+             transform="translate(3,636.0597)"><tspan
+               id="tspan254"
                y="0"
                x="0 12.1212 23.223198 34.325199 44.444397 54.563599 60.624195 65.665596 76.767593">Education</tspan></text>
 <text
-             id="text264"
+             id="text260"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,652.2451)"><tspan
-               id="tspan262"
+             transform="translate(117,637.2451)"><tspan
+               id="tspan258"
                y="0"
                x="0 7.2280002 14.456 21.684 28.912001 32.513 36.841999 40.443001 47.671001 54.898998 62.126999">2008 - 2015</tspan></text>
 <text
-             id="text268"
+             id="text264"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(262,652.2451)"><tspan
-               id="tspan266"
+             transform="translate(262,637.2451)"><tspan
+               id="tspan262"
                y="0"
                x="0 10.101 14.43 21.658001 28.886 36.113998 43.341999 46.943001 55.601002 59.202 66.43 70.030998 77.259003 80.860001 90.246002 97.473999 100.36 106.86 114.088 118.417 124.917 127.803 131.40401">Oregon State University</tspan></text>
 <text
-             id="text272"
+             id="text268"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(614.4346,652.2451)"><tspan
-               id="tspan270"
+             transform="translate(614.4346,637.2451)"><tspan
+               id="tspan266"
                y="0"
                x="0 9.3859997 16.614 20.943001 27.443001 34.671001 37.556999 40.443001 43.328999 49.828999 53.43 57.030998 67.132004">Corvallis, OR</tspan></text>
 <text
-             id="text276"
+             id="text272"
              style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,668.19385)"><tspan
-               id="tspan274"
+             transform="translate(117,653.19385)"><tspan
+               id="tspan270"
                y="0"
                x="0 9.3859997 16.614 23.841999 31.771999 39 42.601002 50.530998 55.588001 59.188999 67.119003 71.447998 75.049004 83.707001 90.934998 94.536003 101.764 109.694 116.922 124.15 127.751 131.35201 139.282 142.883 152.269 160.19901 171.756 179.686 187.616 191.94501 199.173 204.23 207.83099 216.489 223.717 227.31799 234.54601 242.476 249.70399">Bachelor of Science in Computer Science</tspan></text>
 <text
-             id="text280"
+             id="text276"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,703.2451)"><tspan
-               id="tspan278"
+             transform="translate(117,688.2451)"><tspan
+               id="tspan274"
                y="0"
                x="0 7.2280002 14.456 21.684 28.912001 32.513 36.841999 40.443001 47.671001 54.898998 62.126999">2006 - 2008</tspan></text>
 <text
-             id="text284"
+             id="text280"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(262,703.2451)"><tspan
-               id="tspan282"
+             transform="translate(262,688.2451)"><tspan
+               id="tspan278"
                y="0"
                x="0 8.658 11.544 18.771999 26 29.601 40.43 47.658001 54.886002 62.113998 65.714996 72.943001 75.829002 83.056999 86.657997 96.043999 103.272 114.101 124.93 132.158 139.386 142.272 145.873 152.373 155.974 165.36 172.588 175.474 178.36 185.588 192.81599">Blue Mountain Community College</tspan></text>
 <text
-             id="text288"
+             id="text284"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(605.7256,703.2451)"><tspan
-               id="tspan286"
+             transform="translate(605.7256,688.2451)"><tspan
+               id="tspan282"
                y="0"
                x="0 8.658 15.886 23.114 30.341999 33.228001 40.456001 44.056999 51.285 58.513 62.113998 65.714996 75.816002">Pendleton, OR</tspan></text>
 <text
-             id="text292"
+             id="text288"
              style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,719.19385)"><tspan
-               id="tspan290"
+             transform="translate(117,704.19385)"><tspan
+               id="tspan286"
                y="0"
                x="0 9.3859997 16.614 23.841999 31.771999 39 42.601002 49.828999 54.158001 61.386002 64.987 72.917 77.246002 80.847 90.233002 95.290001 99.619003 106.847 110.448 120.549 125.606 132.834 140.76401 148.694 156.62399 160.22501 168.155 173.21201 180.44 188.37 195.59801 199.927 207.155 212.21201 215.813 225.19901 232.427 240.35699 245.414 252.642 259.87 263.47101 273.57199 277.173 281.50201 289.43201 293.03299 302.41901 310.349 318.27899 326.20901 331.26599">Associate of Arts Oregon Transfer Degree with Honors</tspan></text>
 <text
-             id="text296"
+             id="text292"
              style="font-variant:normal;font-weight:bold;font-size:18.19999886px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(3,757.0597)"><tspan
-               id="tspan294"
+             transform="translate(3,742.0597)"><tspan
+               id="tspan290"
                y="0"
                x="0 5.0414 16.143398 22.203999 32.323196 39.402996 49.522198 59.641396 65.701996">Interests</tspan></text>
 <text
-             id="text300"
+             id="text296"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,752.19385)"><tspan
-               id="tspan298"
+             transform="translate(117,737.19385)"><tspan
+               id="tspan294"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text304"
+             id="text300"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,752.19385)"><tspan
-               id="tspan302"
+             transform="translate(131,737.19385)"><tspan
+               id="tspan298"
                y="0"
                x="0 3.6010001 7.2020001 14.43 21.658001 24.544001 31.771999 38.271999 41.873001 51.258999 58.487 62.816002 69.316002 72.202003 79.43 86.657997 90.259003 99.644997 102.531 106.132 113.36 116.961 119.847 127.075 131.40401 138.632 145.86 149.461 155.961 162.461 169.689 172.575 179.80299 183.40401 189.90401 196.40401 202.90401 206.505 213.733 224.562 231.062 234.66299 238.26401 245.492 252.72 259.22 266.448 273.67599 280.17599 287.40399 291.005 298.233 301.83401 305.435 312.66299 319.89099 329.27701 332.87799 342.26401 349.492 353.82101 360.32101 363.207 370.435 377.66299 381.26401 388.492 392.09299 395.694 402.194 408.694 415.922 418.80801 426.03601 429.63699 436.13699 443.36499 450.59299 454.194 461.422 468.64999 475.87799 483.10599 485.992 493.22 496.82101 504.04901 508.37799 511.26401 518.492 525.71997 529.32098 536.54901 543.77698 547.37799">I enjoy working with large scale systems, because of how working at scale can handle bring out </tspan></text>
 <text
-             id="text308"
+             id="text304"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,767.1426)"><tspan
-               id="tspan306"
+             transform="translate(131,752.1426)"><tspan
+               id="tspan302"
                y="0"
                x="0 7.2280002 14.456 21.684 28.912001 33.241001 36.841999 44.07 51.298 54.183998 57.785 60.671001 67.899002 74.399002 78 81.600998 88.829002 93.157997 96.759003 103.259 107.588 114.816 122.044 125.645 128.53101 135.03101 142.259 145.86 153.088 160.31599 167.54401 171.145 174.746 181.974 189.202 196.42999 203.658 210.886 214.487 218.088 225.31599 228.202 231.80299 239.03101 246.259 252.759 255.645 262.87299 270.10101 276.60101 280.202 283.80301 291.03101 294.63199 304.01801 311.246 315.57501 322.07501 325.67599 332.90399 337.233 344.461 351.689 358.91699 366.14499 369.746 376.974 379.85999 383.461 387.06201 389.948 396.448 403.67599 406.56201 410.16299 413.76401 416.64999 419.53601 430.36499 433.25101 436.85199 444.07999 447.681 450.56699 457.79501 465.02301 471.52301">opportunities for creative and thoughtful designs to work around difficult limitations.</tspan></text>
 <text
-             id="text312"
+             id="text308"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,783.19385)"><tspan
-               id="tspan310"
+             transform="translate(117,768.19385)"><tspan
+               id="tspan306"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text316"
+             id="text312"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,783.19385)"><tspan
-               id="tspan314"
+             transform="translate(131,768.19385)"><tspan
+               id="tspan310"
                y="0"
                x="0 12.259 19.487 23.816 30.316 33.202 40.43 47.658001 51.258999 60.645 63.530998 67.132004 74.360001 77.960999 85.189003 88.790001 92.390999 99.619003 106.847 117.676 121.277 124.878 132.106 135.707 139.308 146.536 153.036 160.26401 163.86501 171.093 174.694 181.922 186.25101 193.479 196.36501 203.593 210.093 213.694 217.295 220.896 225.22501 232.453 243.282 246.883 250.48399 257.71201 264.94 271.44 275.04099 277.927 285.155 292.383 299.61099 302.49701 306.09799 313.32599 320.55399 324.155 331.383 334.98401 337.87 345.09799 352.32599 355.927 363.155 370.383 373.98401 377.58499 384.81299 388.414 395.642 402.87 410.09799 417.32599 420.21201 423.09799 430.32599 437.55399 441.155 444.75601 451.98401 459.21201 465.71201 469.31299 476.54099 480.142 483.74301 487.34399 494.57199 501.79999 509.02802 515.52802 522.75598 529.98401 537.21198 543.71198 547.31299 554.54102 558.14203">Working with a team to take a project from functional on a laptop to handling tens of thousands of </tspan></text>
 <text
-             id="text320"
+             id="text316"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,798.1426)"><tspan
-               id="tspan318"
+             transform="translate(131,783.1426)"><tspan
+               id="tspan314"
                y="0"
                x="0 4.329 11.557 18.785 26.013 33.241001 39.741001 43.341999 49.841999 53.443001 60.671001 67.899002 72.227997 75.829002 82.329002 89.556999 96.056999 103.285 110.513 117.741 121.342 124.943 133.601 137.92999 144.42999 151.658 154.54401 158.145 165.373 171.873 175.474 178.36 185.588 192.81599 196.41701 200.01801 207.246 211.575 215.17599 221.67599 228.17599 235.40401 238.28999 245.51801 249.119 252.72 259.948 267.17599 274.40399 278.005 285.233 288.11899 291.005 294.60599 298.207 305.435 312.66299 316.26401 319.86499 324.194 331.422 338.64999 345.87799 348.76401 355.992 362.492 369.72 376.948 384.17599 387.77701 390.66299 397.89099 405.11899 408.72 415.948 418.83401 426.06201 433.29001 440.51801 444.11899 447.72 454.948 462.17599 465.77701 475.16299 482.39099 488.89099">requests per second. Architecting for scale, and all the troubleshooting along the way.</tspan></text>
 <text
-             id="text324"
+             id="text320"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(117,814.19385)"><tspan
-               id="tspan322"
+             transform="translate(117,799.19385)"><tspan
+               id="tspan318"
                y="0"
                x="0">●</tspan></text>
 <text
-             id="text328"
+             id="text324"
              style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="translate(131,814.19385)"><tspan
-               id="tspan326"
+             transform="translate(131,799.19385)"><tspan
+               id="tspan322"
                y="0"
                x="0 10.101 17.329 20.93 27.43 30.316 37.543999 44.771999 48.373001 55.601002 59.202 62.803001 72.189003 79.417 83.746002 90.246002 93.847 97.447998 101.049 108.277 115.505 118.391 125.619 132.119 135.72 142.22 145.106 152.334 159.562 166.78999 170.39101 177.619 184.847 195.67599 202.90401 209.40401 213.005 216.606 223.106 229.606 232.492 236.821 240.422 243.308 246.909 254.13699 261.36499 268.59299 272.194 275.79501 283.02301 290.25101 293.85199 301.07999 307.57999 314.07999 317.681 321.28201 324.168 330.668 334.26901 337.155 344.383 351.61099 355.21201 358.81299 365.31299 372.54099 379.04099 386.26901 392.76901 395.655 402.883 410.11099 413.71201 420.94 428.168 435.396 438.99701 441.883 449.11099 456.33899 463.56699 470.79501 475.12399 478.72501 483.05399 490.28201 496.78201 503.28201 507.61099 514.11102 516.99701 519.883 530.71198 537.94 540.82599 548.05402 555.28198">Outside of work I enjoy video games, sci-fi and fantasy fiction, kayaking and indoor rock-climbing.</tspan></text>
 </g></g></g></g></svg>
